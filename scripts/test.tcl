@@ -9,8 +9,8 @@ set paths [get_timing_paths]
 				
 		}
 	}
-puts $lista
-echo "----------------------------------------"
+#puts $lista
+#echo "----------------------------------------"
 set incremental_list [list]
 set largo [llength $lista]
 set i 1
