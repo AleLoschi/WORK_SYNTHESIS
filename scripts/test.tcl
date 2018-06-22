@@ -26,3 +26,5 @@ while {$i<$largo} {
 
 set incremental_list [lreplace $incremental_list end end]
 puts $incremental_list
+
+set transitionTime [get_attribute [get_attribute [get_timing_paths] points] transition]
